@@ -1,0 +1,243 @@
+*{	
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("kedai.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: auto;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 15px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: white;
+	padding: 5px 13px;
+	border: 1px solid transparent;
+	transition: 0,6s;
+	font-family: 'acme', sans-serif;
+	font-size: 23px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 10px;
+
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}	
+ul li .active{
+	background-color: white;
+	color: black;
+}
+.menu-icon{
+    display: none;
+}
+.main{
+	max-width: auto;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    padding-top: 20px;
+
+}
+.title h1{
+    padding-top: 80px;
+	color: white;
+	font-size: 67px;
+	font-family: 'alata', cursive;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.tap img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.tap p{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    font-family: 'lemonada', sans-serif;
+    letter-spacing: 2px;
+}
+
+.contact-details {
+	color: white;
+	position: absolute;
+	float:left;
+	margin: auto;
+	padding: auto;
+
+}
+/*.container{
+	width: 900px;
+	height: auto;
+	margin: auto;
+	position: absolute;
+
+}
+*/
+.contact-details img {
+	width: 45px;
+	height: 45px;
+	border-radius: 35px;
+	margin: 10%;
+	position: all;
+	float: left;
+	margin-bottom: 10px;
+
+}
+.logo img{
+    margin: 10px 5px;
+	width: 190px;
+	position: absolute;
+	height: 200px;
+	float: left;
+	border-radius: 30px;
+	border: 3px solid;
+	border-color: white;
+
+}
+footer img{
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	margin-top: 89.4vh;
+	border-radius: 40px;
+}
+
+*/responsive.css*/
+@media(max-width: 1001px){
+
+}
+@media screen and (max-width: 1000px){
+	ul{
+	margin-top: 20px;
+}
+ul li a{
+	padding: 3px 7px;
+	border: 1px solid transparent;
+	transition: 0,8s;
+	font-size: 17px;
+	border-radius: 14px;
+}
+	.title h1{
+		font-size: 55px;
+		letter-spacing: 3px;
+		text-decoration: none;
+	}
+	footer img{
+	width: 60px;
+	height: 60px;
+	margin-top: 72%;
+    padding: 4px;
+	}
+	.logo img{
+	width: 150px;
+	height: 150px;
+	border-radius: 35px;
+	border: 2px solid;
+	border-color: white;
+	margin-top:10px;
+	margin-left: 4px;
+}
+}
+@media screen and (max-width: 900px){
+    .title h1{
+        font-size: 50px;
+        
+    }
+    .tap img{
+        height: 150px;
+        margin-top: 19px;
+        border-radius: 40px;
+    }
+    footer img{
+        margin-top: 90vh;
+        
+    }
+    .logo img{
+        border-radius: 20px;
+        height: 190px;
+        width: 160px;
+    }
+}
+@media (max-width: 700px){
+    header{
+        background-position: -20px;
+    }
+    .title h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    .tap img{
+        height: 140px;
+    }
+    .tap p{
+        font-size: 28px;
+    }
+}
+@media(max-width: 600px){
+	ul li a{
+	padding: 1px 6px;
+	border: 1px solid transparent;
+	transition: 0,8s;
+	font-size: 16px;
+	border-radius: 14px;
+}
+	.title h1{
+		font-size: 40px;
+		letter-spacing: 1px;
+        padding-top: 70px;
+	}
+	footer img{
+	width: 32px;
+	height: 38px;
+    margin-top: 91.8vh;
+	display: inline-block;
+
+	}
+	.logo img{
+	width: 104px;
+	height: 150px;
+	border-radius: 10px;
+	border: 2.3px solid;
+	border-color: white;
+	margin-top:10px;
+	margin-left: 4px;
+    }
+    .tap img{
+        height: 100px;
+    }
+    .tap p{
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    header{
+        background-position: -140px;
+    }
+}
+@media (max-width: 500px){
+    footer{
+        padding: 2px;
+}
+
+
+
+
